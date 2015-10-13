@@ -10,4 +10,6 @@
 
 @interface DetailTableViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UITextView *textView;
+@property (nonatomic, strong) NSString *actualTextView;
 @end
